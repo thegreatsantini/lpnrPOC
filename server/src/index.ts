@@ -69,6 +69,11 @@ app.get("/checkQueue", async (req: Request, res: Response) => {
             }
           );
 
+          // * some useful links
+          // * https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e
+          // * https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e/model/4
+          // * https://docs.roboflow.com/deploy/web-browser
+
           axios({
             method: "POST",
             url: "https://detect.roboflow.com/license-plate-recognition-rxg4e/4",
