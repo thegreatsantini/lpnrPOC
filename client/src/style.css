@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+svg {
+  display: block;
+  height: 180px;
+  pointer-events: none;
+  transform-style: preserve-3d;
+}
+circle.eye {
+  fill: #a1a1b6;
+}
+path.top,
+path.bottom {
+  fill: transparent;
+  stroke: #a1a1b6;
+  stroke-width: 1.3px;
+  stroke-linecap: round;
+}
+.left-eye {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  font-family: "Figtree";
+  align-self: center;
+  color: #0e52a4;
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
